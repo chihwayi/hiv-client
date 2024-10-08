@@ -1,0 +1,13 @@
+<nav class="top-bar">
+  <div class="logo">My Dashboard</div>
+  <ul class="nav-links">
+    <!-- Add navigation links here -->
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/profile">Profile</a></li>
+    <li><a routerLink="/settings">Settings</a></li>
+    <li *ngIf="isAdmin()">
+      <a routerLink="/role-management">Role Management</a>
+    </li>
+  </ul>
+  <button class="logout-btn" (click)="logout()">Logout</button>
+</nav>
