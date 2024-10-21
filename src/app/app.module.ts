@@ -10,6 +10,7 @@ import { RegisterComponent } from './components/login/register/register.componen
 import { DashboardComponent } from './components/dashboard/dashboard/dashboard.component';
 import { DashboardTopBarComponent } from './components/dashboard/dashboard-top-bar/dashboard-top-bar.component';
 import { RoleManagementComponent } from './components/admin/role-management/role-management.component';
+import { ArtCurrentStatusChartComponent } from './components/dashboard/art-current-status-chart/art-current-status-chart.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RoleManagementComponent } from './components/admin/role-management/role
     RegisterComponent,
     DashboardComponent,
     DashboardTopBarComponent,
-    RoleManagementComponent
+    RoleManagementComponent,
+    ArtCurrentStatusChartComponent
   ],
   imports: [
     BrowserModule,
