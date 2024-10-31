@@ -1,0 +1,10 @@
+#container1, #container2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  
