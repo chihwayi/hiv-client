@@ -14,6 +14,7 @@ import { DashboardTopBarComponent } from './components/dashboard/dashboard-top-b
 import { RoleManagementComponent } from './components/admin/role-management/role-management.component';
 import { ArtCurrentStatusComponent } from './components/art-current-status/art-current-status.component';
 import { ArtInitiationDemographicsComponent } from './components/charts/art-initiation-demographics/art-initiation-demographics.component';
+import { ArtInitiationDemographicsFacilityComponent } from './components/charts/art-initiation-demographics-facility/art-initiation-demographics-facility.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ArtInitiationDemographicsComponent } from './components/charts/art-init
     DashboardTopBarComponent,
     RoleManagementComponent,
     ArtCurrentStatusComponent,
-    ArtInitiationDemographicsComponent
+    ArtInitiationDemographicsComponent,
+    ArtInitiationDemographicsFacilityComponent
   ],
   imports: [
     BrowserModule,
